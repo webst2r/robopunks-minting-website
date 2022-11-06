@@ -1,5 +1,5 @@
 # robopunks-minting-website
-NFT minting website where you can fully mint through a working smart contract. This project was inspired in the original RoboPunks.
+NFT minting website where you can fully mint through a working smart contract. This project was inspired in the original RoboPunks by EdRoh.
 Used Solidity, React, Ethers and Hardhat along with some other useful plugins.
 
 Step by step:
