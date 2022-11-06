@@ -35,7 +35,7 @@ contract RoboPunksNFT is ERC721, Ownable {
 
     // tokenURI é uma funcao que já existe definida no ERC721 que foi importado. 
     // mas como estamos a definir o nosso proprio URI, temos de dar override nessa função pré-definida.
-    // esta funcao permite que a nossa funcao seja mostrada no OpenSea
+    // esta funcao permite que a nossa img seja mostrada no OpenSea
     function tokenURI(uint256 tokenId_) public view override returns(string memory) {
         require(_exists(tokenId_), 'Token does not exist!');
         
