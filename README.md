@@ -9,9 +9,15 @@ Step by step:
 3. Finally, we will use Ethers.JS with React to build a Web3 Application that provides a Front-End interface where people can interact with the Smart Contract.
 ```
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [x] Wrote the RoboPunksNFT.sol contract using Solidity.
+- [x] Used Infura to setup a node for ou DApp.
+- [x] Created API key on for our project on Etherscan.
+- [x] Deployed the smart contrat to Goerli Testnet. See RoboPunksNFT deployed to: 0x58DDE549384b1D136D4000330aCaA553EbE1231D
+- [x] Verified our Contract on Etherscan using the hardhat verify command.
+- [x] Wrote the front-end code with React, having separated the App in 2 main components (Header & MainMint).
+- [x] Used Chakra's pre-made components to help style our App (replaced the traditional html).
+- [x] Finally, enabled public minting.
+- [x] That's all :tada:
 
 
 
