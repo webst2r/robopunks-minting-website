@@ -11,5 +11,6 @@ Step by step:
 
 ![image](https://user-images.githubusercontent.com/55801579/200177275-47b53937-900a-4793-82f2-b42ffc181370.png)
 
-![image](https://user-images.githubusercontent.com/55801579/200177372-0dcf3d96-0759-4ba4-ae36-a11e79c71387.png)
+![Screenshot from 2022-11-06 14-44-09](https://user-images.githubusercontent.com/55801579/200177497-94c9c87f-18a4-41bf-9b6c-037a590ab6e0.png)
 
+![Screenshot from 2022-11-06 14-44-22](https://user-images.githubusercontent.com/55801579/200177460-824bbb20-5ad3-4a2a-94e9-317b36da686c.png)
