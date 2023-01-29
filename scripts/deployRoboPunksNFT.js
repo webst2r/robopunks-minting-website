@@ -7,9 +7,11 @@ async function main() {
 
   await roboPunksNFT.deployed();
 
-  console.log("RoboPunksNFT deployed to:", roboPunksNFT.address);
-
+  //await roboPunksNFT.setBaseTokenUri("ipfs://QmcKJPczz8mavF7UKzvdwKS9nsHkXntmv85qQhYCw5aMmx/");
+  // ou posso simplesmente editar esse campo no site do contrato no etherscan
+  // ou no REMIX
   
+  console.log("RoboPunksNFT deployed to:", roboPunksNFT.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

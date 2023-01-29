@@ -27,15 +27,15 @@ const NavBar = ( {accounts, setAccounts }) => {
 
             {/* Left side of navbar -> Social Media Icons */}
             <Flex justify="space-around" width="40%" padding="0 75px">
-                <Link href="https://www.facebook.com">
+                <Link href="https://www.facebook.com" target="_blank" >
                     <Image src={Facebook} boxSize="42px" margin="0 15px" />
                 </Link>
 
-                <Link href="https://www.twitter.com">
+                <Link href="https://www.twitter.com" target="_blank">
                     <Image src={Twitter} boxSize="42px" margin="0 15px" />
                 </Link>
 
-                <Link href="https://www.gmail.com">
+                <Link href="https://www.gmail.com" target="_blank">
                     <Image src={Email} boxSize="42px" margin="0 15px" />
                 </Link>
                 

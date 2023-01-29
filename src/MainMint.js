@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import { ethers, BigNumber } from 'ethers';
-/*Pre-made components from chakra*/
 import { Box, Button, Flex, Input, Text } from '@chakra-ui/react';
-import roboPunksNFT from './RoboPunksNFT.json'
 
-const roboPunksNFTAddress = "0x58DDE549384b1D136D4000330aCaA553EbE1231D";
+//import roboPunksNFT from './RoboPunksNFT.json'
+//const roboPunksNFTAddress = "0x58DDE549384b1D136D4000330aCaA553EbE1231D";
+
+import roboPunksNFT from './RoboPunksNFT2.json';
+const roboPunksNFTAddress = "0x6Aa382cb820fB10e6227B77E714FC1Ef767Df150";
+
 
 
 const MainMint = ({ accounts, setAccounts} ) => {
@@ -22,7 +25,7 @@ const MainMint = ({ accounts, setAccounts} ) => {
                 roboPunksNFT.abi,
                 signer
             );
-
+            
             try {
                 // vamos esperar pela resposta da funcao mint que definimos no nosso contrato
                 const response = await contract.mint(BigNumber.from(mintAmount), {
